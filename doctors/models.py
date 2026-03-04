@@ -6,7 +6,7 @@ class Doctor(models.Model):
     qualification = models.CharField(max_length=100)
     contact_number = models.CharField(max_length=15)
     email = models.EmailField()
-    adress = models.TextField()
+    address = models.TextField()
     biography = models.TextField()
 
 class Department(models.Model):
